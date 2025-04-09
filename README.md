@@ -19,13 +19,14 @@ This repository provides tools to apply gradient distortion correction to MRI sc
 
 2. Clone the gradunwarp repository:
    ```bash
-   git clone https://github.com/Washington-University/gradunwarp.git
+   git clone https://github.com/Washington-University/gradunwarp.git (HTTPS) OR
+   git clone git@github.com:gvbhalerao591/applyGDC.git (SSH)
    ```
 
 3. Create and activate a conda environment:
    ```bash
    conda create --prefix=$PWD/gradunwarp-env
-   conda activate $PWD/gradunwarp_tool/gradunwarp-env
+   conda activate $PWD/gradunwarp-env
    ```
 
 4. Install required packages:
@@ -54,7 +55,7 @@ Assuming your scan (to be GDC corrected) is in a directory named 'sample01' and 
 
 1. Export the main scripts directory:
    ```bash
-   export BB_BIN_DIR=/path/to/bb_pipeline_tools/
+   export BB_BIN_DIR=$PWD/applyGDC
    ```
 
 2. Navigate to your sample directory:
@@ -79,7 +80,7 @@ Assuming your scan (to be GDC corrected) is in a directory named 'sample01' and 
 
 ## Output Files
 
-- Corrected MRI scan (`T1_orig_ud.nii.gz`)
+- GDC Corrected MRI scan (`T1_orig_ud.nii.gz`)
 - Warp field (`T1_orig_ud_warp.nii.gz`)
 
 ## Dependencies
