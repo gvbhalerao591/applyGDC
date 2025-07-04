@@ -54,7 +54,7 @@ git clone https://github.com/gvbhalerao591/applyGDC.git
 
 ### Running the GDC correction
 
-Assuming your scan (to be GDC corrected) is in a directory named 'sample01' and the filename is 'T1_orig.nii.gz', follow these steps:
+You will need coeff.grad file for running the correction. Once you have access to this file, copy this into the cloned "applyGDC" directory (or if this file is saved elsewhere, you can also provide the path to this file in Step 3 below in the "--coeff" argument). Assuming your scan (to be GDC corrected) is in a directory named 'sample01' and the filename is 'T1_orig.nii.gz', follow these steps:
 
 1. Export the main scripts directory:
    ```bash
