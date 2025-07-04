@@ -19,22 +19,25 @@ This repository provides tools to apply gradient distortion correction to MRI sc
 
 2. Clone the gradunwarp repository:
    ```bash
-   git clone https://github.com/Washington-University/gradunwarp.git (HTTPS) OR
+   git clone https://github.com/Washington-University/gradunwarp.git (HTTPS)
+   ```
+   OR
+   ```bash
    git clone git@github.com:gvbhalerao591/applyGDC.git (SSH)
    ```
 
-3. Create and activate a conda environment:
+4. Create and activate a conda environment:
    ```bash
    conda create --prefix=$PWD/gradunwarp-env
    conda activate $PWD/gradunwarp-env
    ```
 
-4. Install required packages:
+5. Install required packages:
    ```bash
    conda install pip
    ```
 
-5. Install the gradunwarp tool:
+6. Install the gradunwarp tool:
    ```bash
    cd gradunwarp
    pip install .
