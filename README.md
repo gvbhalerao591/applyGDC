@@ -47,7 +47,7 @@ This repository provides tools to apply gradient distortion correction to MRI sc
 
 8. Automatically activating the environment once you open the terminal:
 
-   If you expect to run GDC correction regularly on new images, then it might be a good idea to add this to your environment depending upon your OS, you can add the conda activate command above to either your ~/.bashrc (Linux) or ~/.zshrc (Mac). For example, in Mac, open the terminal and type:
+   If you expect to run GDC correction regularly on new images, then it might be a good idea to add this to your environment. Depending upon your OS, you can add the conda activate command above to either your ~/.bashrc (Linux) or ~/.zshrc (Mac). For example, in Mac, open the terminal and type:
 
     ```bash
     nano ~/.zshrc
