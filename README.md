@@ -21,12 +21,8 @@ This repository provides tools to apply gradient distortion correction to MRI sc
    ```bash
    git clone https://github.com/Washington-University/gradunwarp.git 
    ```
-   OR
-   ```bash
-   git clone git@github.com:gvbhalerao591/applyGDC.git
-   ```
-
-4. Create and activate a conda environment:
+   
+3. Create and activate a conda environment:
    ```bash
    conda create --prefix=$PWD/gradunwarp-env
    ```
@@ -34,18 +30,18 @@ This repository provides tools to apply gradient distortion correction to MRI sc
    conda activate $PWD/gradunwarp-env
    ```
 
-6. Install required packages:
+4. Install required packages:
    ```bash
    conda install pip
    ```
 
-7. Install the gradunwarp tool:
+5. Install the gradunwarp tool:
    ```bash
    cd gradunwarp
    pip install .
    ```
 
-8. Automatically activating the environment once you open the terminal:
+6. Automatically activating the environment once you open the terminal:
 
    If you expect to run GDC correction regularly on new images, then it might be a good idea to add this to your environment. Depending upon your OS, you can add the conda activate command above to either your ~/.bashrc (Linux) or ~/.zshrc (Mac). For example, in Mac, open the terminal and type:
 
